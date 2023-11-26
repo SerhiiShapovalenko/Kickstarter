@@ -549,6 +549,10 @@
   .button--buy {
     margin-left: 30px;
   }
+
+  .logo__image:hover {
+  transform: scale(1.2);
+}
 }
 @media (min-width: 1280px) {
   .button--buy {
@@ -564,9 +568,6 @@
 
 .logo__image {
   transition: transform 300ms;
-}
-.logo__image:hover {
-  transform: scale(1.2);
 }
 
 .lang-changer {
