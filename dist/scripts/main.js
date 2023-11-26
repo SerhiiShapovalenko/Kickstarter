@@ -1,9 +1,4 @@
-
-import Swiper, { Navigation, Pagination } from 'swiper';
-
-// eslint-disable-next-line
 const swiper = new Swiper('.swiper', {
-  modules: [Navigation, Pagination],
   loop: true,
 
   pagination: {
