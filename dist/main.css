@@ -1,4 +1,3 @@
-@import "../../node_modules/swiper/swiper-bundle.css";
 .page {
   scroll-behavior: smooth;
   width: 100%;
@@ -1212,16 +1211,16 @@
   display: none;
 }
 .features-slider__button-prev {
-  background-image: url(../images/slider/button-prev.svg);
+  background-image: url("../src/images/slider/button-prev.svg");
 }
 .features-slider__button-prev:hover {
-  background-image: url(../images/slider/button-prev_hover.svg);
+  background-image: url("../src/images/slider/button-prev_hover.svg");
 }
 .features-slider__button-next {
-  background-image: url(../images/slider/button-next.svg);
+  background-image: url('../src/images/slider/button-next.svg');
 }
 .features-slider__button-next:hover {
-  background-image: url(../images/slider/button-next_hover.svg);
+  background-image: url('../src/images/slider/button-next_hover.svg');
 }
 .features-slider__pagination {
   position: static;
