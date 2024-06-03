@@ -51,20 +51,20 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   -moz-column-gap: 20px;
-       column-gap: 20px;
+  column-gap: 20px;
 }
 @media (min-width: 640px) and (max-width: 1279px) {
   .grid {
     grid-template-columns: repeat(8, 1fr);
     -moz-column-gap: 24px;
-         column-gap: 24px;
+    column-gap: 24px;
   }
 }
 @media (min-width: 1280px) {
   .grid {
     grid-template-columns: repeat(12, 1fr);
     -moz-column-gap: 24px;
-         column-gap: 24px;
+    column-gap: 24px;
   }
 }
 .grid--mobile {
@@ -551,8 +551,8 @@
   }
 
   .logo__image:hover {
-  transform: scale(1.2);
-}
+    transform: scale(1.2);
+  }
 }
 @media (min-width: 1280px) {
   .button--buy {
@@ -787,7 +787,8 @@
   animation: wiggle 2s linear infinite;
 }
 @keyframes wiggle {
-  0%, 7% {
+  0%,
+  7% {
     transform: rotateZ(0);
   }
   15% {
@@ -805,7 +806,8 @@
   35% {
     transform: rotateZ(-4deg);
   }
-  40%, 100% {
+  40%,
+  100% {
     transform: rotateZ(0);
   }
 }
@@ -955,9 +957,9 @@
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   transition: 300ms;
 }
 .about-us__photo:hover {
@@ -1065,7 +1067,7 @@
   margin-bottom: 20px;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: border-radius 300ms, transform 300ms;
 }
 .testimonial__photo:hover {
@@ -1162,6 +1164,7 @@
   right: 0;
   height: auto;
   width: 100%;
+  max-width: 690px;
   display: block;
 }
 
@@ -1381,4 +1384,4 @@
 }
 .footer__social-media-icon:hover {
   transform: scale(1.2);
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

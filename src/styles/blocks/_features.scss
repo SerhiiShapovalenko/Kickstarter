@@ -23,18 +23,16 @@
     background-color: $color-blue-gray;
     padding-top: 60px;
     box-sizing: border-box;
-    
-    
 
     @include onMobile {
       display: none;
     }
-  
+
     @include onTablet {
       display: none;
     }
   }
-  
+
   &__description-title {
     font-weight: 700;
     font-size: 34px;
@@ -79,6 +77,7 @@
     right: 0;
     height: auto;
     width: 100%;
+    max-width: 690px;
     display: block;
   }
 }
